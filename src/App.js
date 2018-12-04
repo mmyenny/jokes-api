@@ -15,23 +15,23 @@ class App extends Component {
     axios
       .get('https://safe-falls-22549.herokuapp.com/random_joke')
       .then(response => {
-        console.log(response.data)
-        const newState = {
+        this.setState({
           joke: response.data.setup,
           punchline: response.data.punchline
-        }
-        this.setState(newState)
+        })
       })
-    console.log('hello')
   }
 
   render() {
     return (
       <div className="App">
         <h1>Random Jokes Generator</h1>
-        <p>{this.state.joke}</p>
-        <p>{this.state.punchline}</p>
-        <button onClick={this.getRandomJoke}>Click Here</button>
+        <main>
+          <p>{this.state.joke}</p>
+          <p>{this.state.punchline}</p>
+          <button onClick={this.getRandomJoke}>Click Here</button>
+        </main>
+        <div className="image" />
       </div>
     )
   }

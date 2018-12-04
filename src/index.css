@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
+html {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+main {
+  height: 30vh;
+  margin-top: 60px;
+}
+
+h1 {
+  color: #1fcdff;
+  text-shadow: 1.5px 1.5px #fc6bce;
+  font-size: 3rem;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+p {
+  /* color: #fc6bce; */
+  color: #ffff67;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #fc6bce;
+}
+
+.image {
+  background-image: url(./images/Rainbow-In-Black-Wallpaper-Funny.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 45vh;
+  background-position: bottom;
+}
