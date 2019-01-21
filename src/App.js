@@ -13,7 +13,7 @@ class App extends Component {
   }
   getRandomJoke = event => {
     axios
-      .get('https://safe-falls-22549.herokuapp.com/random_joke')
+      .get('https://official-joke-api.appspot.com/random_joke')
       .then(response => {
         this.setState({
           joke: response.data.setup,
