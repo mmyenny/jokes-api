@@ -1,7 +1,15 @@
-create header - random jokes generator
-create button
-add function to make button clickable
-yarn add axios/import to app.js/axios.get
-pulled data from API
-added the data to state
-updated render to display state values
+<p align="center">
+<img src="src/images/jokes.gif">
+</p>
+
+## Summary
+
+In this assignment I was instructed to build a front end for an API of my choice. I chose a random joke generator API.
+
+## Technologies Used
+
+- Axios
+- Javascript - https://www.javascript.com/
+- REACT - https://reactjs.org/
+- CSS
+- HTML

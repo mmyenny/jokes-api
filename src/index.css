@@ -19,12 +19,14 @@ h1 {
 }
 
 p {
-  /* color: #fc6bce; */
   color: #ffff67;
 }
 
 button {
   cursor: pointer;
+  outline: none;
+  background-color: rgb(226, 225, 225);
+  border-radius: 5px;
 }
 
 button:hover {
@@ -36,6 +38,6 @@ button:hover {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 45vh;
+  height: 42vh;
   background-position: bottom;
 }
