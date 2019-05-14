@@ -23,6 +23,7 @@ p {
 }
 
 button {
+  font-size: 12px;
   cursor: pointer;
   outline: none;
   background-color: rgb(226, 225, 225);

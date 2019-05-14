@@ -11,10 +11,13 @@ class App extends Component {
       punchline: ''
     }
   }
+
   getRandomJoke = event => {
+    //Make http request
     axios
       .get('https://official-joke-api.appspot.com/random_joke')
       .then(response => {
+        //sets state to the results
         this.setState({
           joke: response.data.setup,
           punchline: response.data.punchline
